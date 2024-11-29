@@ -5,18 +5,17 @@
 }
 
 .heder-container {
-    max-width: 72%;
+    width: 100%;
     display: flex;
     margin: 0 auto;
+    margin-top: 35px;
 }
 
 
 header {
-    margin-top: 35px;
-}
+    position: fixed;
+    top: 0;
 
-header .container {
-    display: flex;
 }
 
 header nav ul {
@@ -42,3 +41,21 @@ header  img {
 }
 
 /* ***********hero********* */
+
+.container {
+    width: 100%;
+}
+
+#hero {
+    height: 100%;
+    width: 100%;
+
+}
+
+#hero .container {
+    background-image: url(../img/burger\ img.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
