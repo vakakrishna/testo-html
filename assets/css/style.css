@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heder-container {
+    max-width: 72%;
+    display: flex;
+    margin: 0 auto;
+}
+
+
+header {
+    margin-top: 35px;
+}
+
+header .container {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    font-family:"Oswald" ;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 0 10px;
+    
+}
+
+header nav ul li a:hover {
+    color: red;
+}
+header  img {
+    height: 100px;
+    max-width: 24%;
+}
+
+/* ***********hero********* */

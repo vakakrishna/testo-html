@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Lilita One';
+    src: url('../font/LilitaOne.eot');
+    src: url('../font/LilitaOne.eot?#iefix') format('embedded-opentype'),
+        url('../font/LilitaOne.woff2') format('woff2'),
+        url('../font/LilitaOne.woff') format('woff'),
+        url('../font/LilitaOne.ttf') format('truetype'),
+        url('../font/LilitaOne.svg#LilitaOne') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
