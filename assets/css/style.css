@@ -12,6 +12,10 @@
 }
 
 
+.heder-container .abc {
+    display: flex;
+    margin-left: 180px;
+}
 header {
     position: fixed;
     top: 0;
@@ -26,7 +30,7 @@ header nav ul {
 header nav ul li a {
     font-family:"Oswald" ;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
     padding: 0 10px;
     
@@ -35,7 +39,8 @@ header nav ul li a {
 header nav ul li a:hover {
     color: red;
 }
-header  img {
+
+.heder-container img {
     height: 100px;
     max-width: 24%;
 }
