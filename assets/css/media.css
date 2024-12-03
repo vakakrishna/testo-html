@@ -1,0 +1,37 @@
+/* (0-575) 1rem=*/
+@media screen and (max-width: 575px) {
+    
+    
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+/* (576-767) sm */
+@media screen and (min-width: 576px) {
+    
+
+}
+
+/* (768-991) md */
+@media screen and (min-width: 768px) {
+
+}
+
+/* (992-1199) lg */
+@media screen and (min-width: 992px) {
+
+
+}
+
+/* (1200-1399) xl */
+@media screen and (min-width: 1200px) {
+
+}
+
+/* (1400-any) xxl  */
+@media screen and (min-width: 1400px) {
+
+
+} 
