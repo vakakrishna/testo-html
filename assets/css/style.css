@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 
 .heder-container {
     width: 100%;
@@ -143,6 +148,102 @@ padding-left: 35px;
     color: black;
     font-family:"Oswald" ;
     text-align: center;
+    padding-left:1rem;
+ 
+}
+   
+/* *********burger-fries********** */
+
+#burger-fries {
+    padding-bottom: 20rem;
+}
+
+.bgdata {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chees-fries  {
+    height: 20rem;
+    width: 100%;
+    /* position: absolute; */
+    background-image: url(../img/pb-2-1.jpg);
+}
+
+.burger-back  {
+    background-image: url(../img/pb-2-2.jpg);
+}
+
+.chees-fries-data {
+    /* position: relative; */
+}
+
+.chees-fries-data h2 {
+    color : #6f5e4d;
+    font-family:"Oswald" ;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: right;
+    padding: 80px 35px  0px 50px;
+    border-radius: 6px;
+}
+
+.chees-fries-data h3 {
+    color : #6f5e4d;
+    font-family:"Oswald" ;
+    font-size: 2.5rem;
+    max-width: 60%;
+    margin-left: 14rem;
+    font-weight: bold;
+}
+
+.common-btn {
+    height: 47px;
+    width: 40%;
+    border: none;
+    background-color: red;
+    font-family:"Oswald" ;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 16rem;
+    margin-top: 1rem;
+}
+
+.burger-back-data {
+    position: relative;
+}
+
+.burger-back-data h2 {
+    color : #6f5e4d;
+    padding-top: 5rem;
+    font-family:"Oswald" ;
+    font-size: 2.5rem;
+    max-width: 60%;
+    margin-left: 20rem;
+    font-weight: 300;
 
 }
-    
+
+.burger-back-data h1 {
+    color : #6f5e4d;
+    font-family:"Oswald" ;
+    font-size: 2.5rem;
+    max-width: 60%;
+    margin-left: 17rem;
+    font-weight: bold;
+
+}
+
+.common-btn1 {
+    height: 47px;
+    width: 30%;
+    border: none;
+    background-color: red;
+    font-family:"Oswald" ;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-left: 22.2rem;
+}
