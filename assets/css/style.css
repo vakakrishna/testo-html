@@ -155,7 +155,7 @@ padding-left: 35px;
 /* *********burger-fries********** */
 
 #burger-fries {
-    padding-bottom: 20rem;
+    padding-bottom: 10rem;
 }
 
 .bgdata {
@@ -247,3 +247,19 @@ padding-left: 35px;
 
 }
 
+/* ******8menu************ */
+
+#menu h2 {
+    color: #e3000e;
+    font-size: 3.7rem;
+    text-align: center;
+}
+
+#menu p {
+    color: #888;
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 43rem;
+    margin: 0 auto;
+    padding: 1rem 0 3rem;
+}
