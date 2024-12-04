@@ -167,15 +167,15 @@ padding-left: 35px;
     height: 20rem;
     width: 100%;
     /* position: absolute; */
-    background-image: url(../img/pb-2-1.jpg);
 }
 
 .burger-back  {
-    background-image: url(../img/pb-2-2.jpg);
 }
 
 .chees-fries-data {
     /* position: relative; */
+    background-image: url(../img/pb-2-1.jpg);
+    height: 360px;
 }
 
 .chees-fries-data h2 {
@@ -193,25 +193,37 @@ padding-left: 35px;
     font-family:"Oswald" ;
     font-size: 2.5rem;
     max-width: 60%;
-    margin-left: 14rem;
+    margin-left: 20rem;
     font-weight: bold;
 }
 
 .common-btn {
     height: 47px;
-    width: 40%;
+    width: 37%;
     border: none;
     background-color: red;
     font-family:"Oswald" ;
     color: white;
     font-weight: bold;
     font-size: 1.2rem;
-    margin-left: 16rem;
+    margin-left: 20rem;
     margin-top: 1rem;
+    position: relative;
+}
+
+.common-btn::before {
+    transition: all 1s;
+    background-color: white;
+    color: red;
+    top: 0;
+    left: 0;
+    position: absolute;
 }
 
 .burger-back-data {
     position: relative;
+    background-image: url(../img/pb-2-2.jpg);
+    height: 360px;
 }
 
 .burger-back-data h2 {
@@ -235,15 +247,3 @@ padding-left: 35px;
 
 }
 
-.common-btn1 {
-    height: 47px;
-    width: 30%;
-    border: none;
-    background-color: red;
-    font-family:"Oswald" ;
-    color: white;
-    font-weight: bold;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    margin-left: 22.2rem;
-}
