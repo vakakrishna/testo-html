@@ -261,8 +261,7 @@ header nav ul li a:hover {
     text-transform: uppercase;
 
 }
-
-#menu .abc {
+ .abc {
     color: #888;
     font-size: 1.5rem;
     text-align: center;
@@ -270,37 +269,36 @@ header nav ul li a:hover {
     margin: 0 auto;
     padding: 1rem 0 3rem;
     font-family: 'Roboto';
-font-weight: 300;
+    font-weight: 300;
 }
+
 .burgur-menu {
-    justify-content: space-between;
-    
+    row-gap: 3rem;
 }
+
 .menu-data {
     display: flex;
-    justify-content: space-between;
-row-gap: 2rem;
 }
 
-.menu-detail {
+.menus-data {
     height: auto;
-    width: 100%;
     border: 1px solid #e5e5e5;
     border-radius: 6px;
-    overflow: hidden;
-    margin-bottom: 30px;
-    row-gap: 2rem;
 }
 
-.menu-detail img {
+.money-data {
+    padding: 0 20px 15px 14px;
+}
+
+.imges-data img{
     width: 100%;
+    border-radius: 6px 6px 0 0;
 }
 
 .menu-detail img:hover {
     transform: scale(1);
     transition: all 1s;
 }
-
 
 .menu-star {
     padding: 10px;
@@ -311,7 +309,8 @@ row-gap: 2rem;
 
 }
 
-.menu-star span i {
+
+.menu-star a {
     color: #aaa;
     font-weight: 500;
     float: right;
@@ -326,7 +325,7 @@ row-gap: 2rem;
     padding: 10px 0 12px 0;
 }
 
-.menu-star  .cilli {
+.menu-star .cilli {
     color: #757575;
     font-size: 16px;
 }
@@ -335,7 +334,7 @@ row-gap: 2rem;
     height: 35px;
     width: 27%;
     background-color: #642f21;
-    border-radius:7px;
+    border-radius: 7px;
     font-size: 20px;
     text-align: center;
     color: #f7be27;
