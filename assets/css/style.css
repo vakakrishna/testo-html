@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -17,10 +18,11 @@
 }
 
 
- .abc {
+.abc {
     display: flex;
     margin-left: 180px;
 }
+
 header {
     position: fixed;
     top: 0;
@@ -33,12 +35,12 @@ header nav ul {
 }
 
 header nav ul li a {
-    font-family:"Oswald" ;
+    font-family: "Oswald";
     text-decoration: none;
     color: white;
     font-size: 20px;
     padding: 0 10px;
-    
+
 }
 
 header nav ul li a:hover {
@@ -64,7 +66,7 @@ header nav ul li a:hover {
     height: 100vh;
     width: 100%;
     position: relative;
-    
+
 
 }
 
@@ -97,7 +99,7 @@ header nav ul li a:hover {
     color: #f7be27;
     font-size: 2rem;
     font-weight: bold;
-    font-family:"Oswald" ;
+    font-family: "Oswald";
 
 }
 
@@ -122,12 +124,12 @@ header nav ul li a:hover {
     font-size: 4.4rem;
     font-weight: 500;
     padding-left: 30px;
-    font-family:"Oswald" ;
+    font-family: "Oswald";
 
 }
 
-.img-data p{
-    color:  #757575;
+.img-data p {
+    color: #757575;
     font-size: 1.15rem;
     padding-left: 30px;
 }
@@ -135,7 +137,7 @@ header nav ul li a:hover {
 .foods {
     display: flex;
     justify-content: space-between;
-padding-left: 35px;
+    padding-left: 35px;
 }
 
 .foods img {
@@ -146,12 +148,12 @@ padding-left: 35px;
 .foods h2 {
     font-size: 1.4rem;
     color: black;
-    font-family:"Oswald" ;
+    font-family: "Oswald";
     text-align: center;
-    padding-left:1rem;
- 
+    padding-left: 1rem;
+
 }
-   
+
 /* *********burger-fries********** */
 
 #burger-fries {
@@ -163,14 +165,13 @@ padding-left: 35px;
     justify-content: space-between;
 }
 
-.chees-fries  {
+.chees-fries {
     height: 20rem;
     width: 100%;
     /* position: absolute; */
 }
 
-.burger-back  {
-}
+.burger-back {}
 
 .chees-fries-data {
     /* position: relative; */
@@ -181,18 +182,18 @@ padding-left: 35px;
 }
 
 .chees-fries-data h2 {
-    color : #6f5e4d;
-    font-family:"Oswald" ;
+    color: #6f5e4d;
+    font-family: "Oswald";
     font-size: 2.5rem;
     font-weight: 300;
     text-align: right;
-    padding: 80px 35px  0px 50px;
+    padding: 80px 35px 0px 50px;
     border-radius: 6px;
 }
 
 .chees-fries-data h3 {
-    color : #6f5e4d;
-    font-family:"Oswald" ;
+    color: #6f5e4d;
+    font-family: "Oswald";
     font-size: 2.5rem;
     max-width: 60%;
     margin-left: 20rem;
@@ -204,7 +205,7 @@ padding-left: 35px;
     width: 37%;
     border: none;
     background-color: red;
-    font-family:"Oswald" ;
+    font-family: "Oswald";
     color: white;
     font-weight: bold;
     font-size: 1.2rem;
@@ -230,9 +231,9 @@ padding-left: 35px;
 }
 
 .burger-back-data h2 {
-    color : #6f5e4d;
+    color: #6f5e4d;
     padding-top: 5rem;
-    font-family:"Oswald" ;
+    font-family: "Oswald";
     font-size: 2.5rem;
     max-width: 60%;
     margin-left: 20rem;
@@ -241,8 +242,8 @@ padding-left: 35px;
 }
 
 .burger-back-data h1 {
-    color : #6f5e4d;
-    font-family:"Oswald" ;
+    color: #6f5e4d;
+    font-family: "Oswald";
     font-size: 2.5rem;
     max-width: 60%;
     margin-left: 17rem;
@@ -256,36 +257,87 @@ padding-left: 35px;
     color: #e3000e;
     font-size: 3.7rem;
     text-align: center;
+    font-family: "Oswald";
+    text-transform: uppercase;
+
 }
 
-#menu p {
+#menu .abc {
     color: #888;
     font-size: 1.5rem;
     text-align: center;
     max-width: 43rem;
     margin: 0 auto;
     padding: 1rem 0 3rem;
+    font-family: 'Roboto';
+font-weight: 300;
 }
-
+.burgur-menu {
+    justify-content: space-between;
+    
+}
 .menu-data {
     display: flex;
     justify-content: space-between;
+row-gap: 2rem;
 }
 
 .menu-detail {
     height: auto;
     width: 100%;
     border: 1px solid #e5e5e5;
-    margin-right: 10px;
     border-radius: 6px;
     overflow: hidden;
+    margin-bottom: 30px;
+    row-gap: 2rem;
 }
 
 .menu-detail img {
     width: 100%;
 }
- 
-.menu-detail i {
+
+.menu-detail img:hover {
+    transform: scale(1);
+    transition: all 1s;
+}
+
+
+.menu-star {
+    padding: 10px;
+}
+
+.menu-star i {
     color: #f7be27;
-    
+
+}
+
+.menu-star span i {
+    color: #aaa;
+    font-weight: 500;
+    float: right;
+    font-size: 20px;
+}
+
+.menu-star h3 {
+    font-family: "Oswald";
+    color: #642f21;
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding: 10px 0 12px 0;
+}
+
+.menu-star  .cilli {
+    color: #757575;
+    font-size: 16px;
+}
+
+.menu-star .money {
+    height: 35px;
+    width: 27%;
+    background-color: #642f21;
+    border-radius:7px;
+    font-size: 20px;
+    text-align: center;
+    color: #f7be27;
+    font-weight: bold;
 }
