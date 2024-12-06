@@ -414,7 +414,7 @@ header nav ul li a:hover {
     font-weight: 500;
     color: white;
     font-family: "Roboto";
-    max-width: 70%;
+    max-width: 90%;
 }
 
 .common-btns {
@@ -460,11 +460,39 @@ header nav ul li a:hover {
 
 .circle-data {
 color: white;
+text-align: center;
+font-family: "Oswald";
+padding-top: 2rem;
+
 }
+
+.circle-data h2 {
+    font-family: "Oswald";
+font-weight: bold;
+font-size: 2rem;
+text-transform: uppercase;
+}
+
+.circle-data h2 {
+    font-size: 2rem;
+}
+
+
+.circle-data h3 {
+    font-size: 3rem;
+}
+
 
 .box-burger {
     border: 2px solid rgba(255, 255, 255, .5);
     background-color: transparent;
     border-radius: 6px;
     padding: 20px;
+    height: 100px;
+    width: 140px;
+}
+
+.box-burger img {
+    height: 70px;
+    width: 70px;
 }
