@@ -304,6 +304,7 @@ header nav ul li a:hover {
     position: relative;
     overflow: hidden;
 }
+
 .imges-data span {
     position: absolute;
     z-index: 999;
@@ -327,7 +328,7 @@ header nav ul li a:hover {
 .menu-star {
     padding: 10px;
     display: flex;
-    
+
 }
 
 .menu-star i {
@@ -336,7 +337,7 @@ header nav ul li a:hover {
 }
 
 
-.menu-star a  i{
+.menu-star a i {
     color: #aaa;
     font-weight: 500;
     float: right;
@@ -346,7 +347,7 @@ header nav ul li a:hover {
 
 .menu-star a i:hover {
     color: red;
-    
+
 }
 
 .menu-star h3 {
@@ -376,7 +377,7 @@ header nav ul li a:hover {
 /* *****the-county*********** */
 
 #the-county {
-    background-image: url(../img/backimg.png);
+    background-image: url(../img/backyellow.jpg);
     margin-top: 8rem;
     background-position: top center;
     background-size: 100% auto;
@@ -384,6 +385,86 @@ header nav ul li a:hover {
     height: 100vh;
     width: 100%;
     position: relative;
+}
 
+.county-data {
+    padding: 5rem 0 5rem 0;
+    float: left;
+}
 
+.county-data h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: white;
+    font-family: "Oswald";
+    text-transform: uppercase;
+}
+
+.county-data h2 {
+    font-size: 6rem;
+    font-weight: 500;
+    color: white;
+    font-family: "Oswald";
+    text-transform: uppercase;
+    max-width: 40%;
+}
+
+.county-data p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    font-family: "Roboto";
+    max-width: 70%;
+}
+
+.common-btns {
+    height: 47px;
+    width: 37%;
+    border: none;
+    background-color: red;
+    font-family: "Oswald";
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 0.60rem;
+
+}
+
+.burgers-data {
+    padding: 5rem 0 5rem 0;
+
+}
+
+.the-county-data {
+    display: flex;
+}
+
+.burgers-img img {
+    height: 450px;
+    position: relative;
+}
+
+.red-circle {
+    background-image: url(../img/red.png);
+    top: 110px;
+    right: 369px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: red;
+    height: 200px;
+    width: 195px;
+
+}
+
+.circle-data {
+color: white;
+}
+
+.box-burger {
+    border: 2px solid rgba(255, 255, 255, .5);
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 20px;
 }
