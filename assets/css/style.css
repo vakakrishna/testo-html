@@ -460,18 +460,18 @@ header nav ul li a:hover {
 }
 
 .circle-data {
-color: white;
-text-align: center;
-font-family: "Oswald";
-padding-top: 2rem;
+    color: white;
+    text-align: center;
+    font-family: "Oswald";
+    padding-top: 2rem;
 
 }
 
 .circle-data h2 {
     font-family: "Oswald";
-font-weight: bold;
-font-size: 2rem;
-text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .circle-data h2 {
@@ -490,8 +490,9 @@ text-transform: uppercase;
     border-radius: 6px;
     padding: 20px;
     margin-bottom: 20px;
-    
+
 }
+
 .box-burger:hover {
     background-color: #f7be27;
 }
@@ -505,4 +506,105 @@ text-transform: uppercase;
     font-size: 1rem;
     text-align: center;
     padding-top: 1rem;
+}
+
+/* ************salad*******************8 */
+
+#salad {
+    padding: 8rem;
+    margin-left: 5rem;
+
+}
+
+.salad-data {
+    display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-bottom: 3rem;
+}
+
+.sal-img img {
+    height: 80px;
+    align-items: center;
+}
+
+.sals-img img {
+    padding-top: 1rem;
+    height: 80px;
+
+}
+
+.sals-img h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    align-items: center;
+    padding-right: 8rem;
+}
+
+.sal-img h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-right: 7rem;
+
+}
+
+
+
+
+.salad-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgsalad {
+    border: 1px solid #e5e5e5;
+    padding: 25px 20px 20px;
+    border-radius: 6px;
+position: relative;
+
+}
+
+.imgsalad img {
+    height: auto;
+    width: 100%;
+}
+
+.pay {
+    display: flex;
+    padding-top: 1rem;
+}
+
+.money {
+    background-color: #642f21;
+    border-radius: 7px;
+    font-size: 19px;
+    text-align: center;
+    color: #f7be27;
+    font-weight: bold;
+    padding: 5px;
+margin-right: 1.8rem;
+
+}
+
+.pay i {
+    float: right;
+    color: #f7be27;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.heart-ican {
+    position: absolute;
+    top: 5px;
+    right: 6px;
+}
+
+.heart-ican a i{
+    color: #757575;
+
+    
 }
