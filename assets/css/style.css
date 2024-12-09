@@ -652,17 +652,3 @@ background-color: #f7be27;
     position: relative;
 }
 
-.documentslide {
-    position: absolute;
-    top: 0;
-    padding: 0;
-}
-
-.documentslide::after {
-    content: " ";
-    display: block;
-}
-
-.row {
-    display: flex;
-}
