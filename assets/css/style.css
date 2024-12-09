@@ -524,31 +524,21 @@ header nav ul li a:hover {
 }
 
 .sal-img img {
-    height: 80px;
+    height: 60px;
     align-items: center;
 }
 
-.sals-img img {
-    padding-top: 1rem;
-    height: 80px;
-
+.sal-img img:hover {
+    color: #e3000e;
 }
-
-.sals-img h2 {
-    font-size: 1.5rem;
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 1rem;
-    align-items: center;
-    padding-right: 8rem;
-}
-
 .sal-img h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-align: center;
     text-transform: uppercase;
     padding-top: 1rem;
-    padding-right: 7rem;
+    padding-right: 8.4rem;
+    font-family: "Oswald";
+
 
 }
 
@@ -562,9 +552,9 @@ header nav ul li a:hover {
 
 .imgsalad {
     border: 1px solid #e5e5e5;
-    padding: 25px 20px 20px;
+    padding: 25px 14px 20px;
     border-radius: 6px;
-position: relative;
+    position: relative;
 
 }
 
@@ -573,9 +563,12 @@ position: relative;
     width: 100%;
 }
 
+
+
 .pay {
     display: flex;
     padding-top: 1rem;
+    justify-content: space-between;
 }
 
 .money {
@@ -586,15 +579,13 @@ position: relative;
     color: #f7be27;
     font-weight: bold;
     padding: 5px;
-margin-right: 1.8rem;
+    margin-right: 1.8rem;
 
 }
 
 .pay i {
     float: right;
-    color: #f7be27;
     align-items: center;
-    padding-top: 10px;
 }
 
 .heart-ican {
@@ -603,8 +594,75 @@ margin-right: 1.8rem;
     right: 6px;
 }
 
-.heart-ican a i{
+.heart-ican a i {
     color: #757575;
+}
 
-    
+.add-to-cart {
+    padding: 15px;
+}
+
+.i-star {
+    padding-top: 8px;
+    color: #f7be27;
+
+}
+
+.add-to-cart h2 {
+    color: #642f21;
+    font-size: 20px;
+    font-family: "Oswald";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.add-to-cart p {
+    color: #283034;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.add {
+    height: 50px;
+    width: 100%;
+    color: black;
+    font-family: "Oswald";
+    padding: 10px;
+    border: 2px solid #aaa;
+    background-color: white;
+}
+
+.add img{
+    height: 30px;
+}
+.add:hover {
+background-color: #f7be27;
+}
+
+/* ***********back*********** */
+
+#back {
+    background-image: url(../img/background1img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.documentslide {
+    position: absolute;
+    top: 0;
+    padding: 0;
+}
+
+.documentslide::after {
+    content: " ";
+    display: block;
+}
+
+.row {
+    display: flex;
 }
