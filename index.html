@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="assets/css/osward.css">
@@ -537,40 +538,66 @@
 
         <section id="back">
             <div class="container">
-                <div class="row swiper-datas">
+                <div class=" swiper-datas">
                     <div class="swiper document-slider">
                         <div class="swiper-wrapper">
-                          <div class="swiper-slide slide1">
-                            <img src="assets/img/man.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide  slide1">
-                            <img src="assets/img/femail.jpg" alt="">
+                            <div class="swiper-slide slide1">
 
-                          </div>
-                          <div class="swiper-slide slide1">
-                            <img src="assets/img/man2.jpg" alt="">
-                          </div>
-                          <div class="swiper-slide slide1">
-                            <img src="assets/img/man3].jpg" alt="">
-                          </div>
-                          <div class="swiper-slide slide1">
-                            <img src="assets/img/femail2.jpg" alt="">
-                          </div>
+                                <div class="p-data">
+                                    <img src="assets/img/man.jpg" alt="">
+                                    <p>" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo
+                                        tempus
+                                        dolor egestas magna suscipit magna tempus aliquet porta sodales augue suscipit
+                                        luctus neque "</p>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <h2>by Sean McMarthy
+
+                                    </h2>
+                                </div>
+
+                                
+
+                            </div>
+                            <div class="swiper-slide  slide1">
+                                <img src="assets/img/femail.jpg" alt="">
+                                <p>" At sagittis congue augue egestas egestas magna ipsum vitae purus ipsum primis in
+                                    cubilia laoreet augue egestas luctus donec diam ociis nullam tempor sapien, eget
+                                    orci gravida porta "
+
+                                </p>
+                            </div>
+                            <div class="swiper-slide slide1">
+                                <img src="assets/img/man2.jpg" alt="">
+                                <p>" Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue augue. An orci
+                                    nullam tempor sapien, eget orci gravida donec enim ipsum porta justo integer at odio
+                                    velna auctor "
+
+                                </p>
+                            </div>
+                            <div class="swiper-slide slide1">
+                                <img src="assets/img/man3].jpg" alt="">
+                                <p>" An orci nullam tempor sapien, eget orci gravida donec enim ipsum porta justo
+                                    integer at odio velna auctor. Egestas magna ipsum vitae purus ipsum primis in
+                                    cubilia laoreet augue "
+
+                                </p>
+                            </div>
+                            <div class="swiper-slide slide1">
+                                <img src="assets/img/femail2.jpg" alt="">
+                                <p>" Egestas egestas magna ipsum vitae purus efficitur ipsum primis in cubilia laoreet
+                                    augue egestas luctus donec ociis vitae purus diam integer congue magna undo impedit
+                                    lacus dolor "
+
+                                </p>
+                            </div>
                         </div>
-                        <div class="swiper-pagination"></div>
-                      </div>
-                    
-
-                      <script>
-                        var swiper = new Swiper(".document-slider", {
-                          pagination: {
-                            el: ".swiper-pagination",
-                          },
-                        });
-                    
-
-                        
-
+                        <div class="swiper-pagination">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -581,7 +608,14 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".document-slider", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
 </body>
 
 </html>
-

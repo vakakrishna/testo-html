@@ -531,6 +531,7 @@ header nav ul li a:hover {
 .sal-img img:hover {
     color: #e3000e;
 }
+
 .sal-img h2 {
     font-size: 1.4rem;
     text-align: center;
@@ -633,11 +634,12 @@ header nav ul li a:hover {
     background-color: white;
 }
 
-.add img{
+.add img {
     height: 30px;
 }
+
 .add:hover {
-background-color: #f7be27;
+    background-color: #f7be27;
 }
 
 /* ***********back*********** */
@@ -653,34 +655,72 @@ background-color: #f7be27;
     margin-bottom: 10rem;
 }
 
-.swiper-datas {
-    display: flex;
-}
 
-.document-slider  .swiper-slide {
+.document-slider .swiper-slide {
     text-align: center;
     font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    width: 50%;
+}
 
-.document-slider  .swiper-slide img {
+.document-slider .swiper-slide img {
     display: block;
     /* width: 100%;
     height: 100%; */
     object-fit: cover;
-  }
+    margin-top: 5rem;
+}
 
-  .document-slider  .swiper-slide::before {
+.document-slider .swiper-slide::after {
     content: " ";
     display: block;
     clear: both;
-  }
+}
 
-  .slide1 img{
+.slide1 {
+    text-align: center;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.slide1 img {
     height: 110px;
     width: 10%;
     border-radius: 50%;
-    
-  }
+
+}
+
+.slide1 p {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    max-width: 85%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.p-data img {
+    margin: 0 auto;
+}
+
+.p-data i {
+    color: #f7be27;
+    padding-top: 1.5rem;
+}
+
+.p-data h2 {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+    padding-top: 1rem;
+    font-family: "Oswald";
+    padding-bottom: 2rem;
+}
+
+.swiper-datas .swiper-pagination {
+    color: white;
+
+}
