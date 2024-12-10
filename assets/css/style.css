@@ -650,5 +650,37 @@ background-color: #f7be27;
     height: 100vh;
     width: 100%;
     position: relative;
+    margin-bottom: 10rem;
 }
 
+.swiper-datas {
+    display: flex;
+}
+
+.document-slider  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.document-slider  .swiper-slide img {
+    display: block;
+    /* width: 100%;
+    height: 100%; */
+    object-fit: cover;
+  }
+
+  .document-slider  .swiper-slide::before {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  .slide1 img{
+    height: 110px;
+    width: 10%;
+    border-radius: 50%;
+    
+  }
