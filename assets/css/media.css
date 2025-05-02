@@ -125,7 +125,10 @@
         padding-top: 5rem;
 
     }  
-
+    .heder-container img {
+        height: auto;
+       
+    }
     .heder-detail p {
         color: white;
         font-size: 1rem;
@@ -260,7 +263,7 @@
 
     .heder-container img {
         height: auto;
-        max-width: 24%;
+       
     }
 
     .heder-detail h2 {
