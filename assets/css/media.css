@@ -140,7 +140,7 @@
 
     .heroslider img {
         width: 100%;
-        height: auto !important;
+        height: 80vh !important;
     }
 }
 
@@ -284,7 +284,7 @@
     }
 
     .heder-detail h2 {
-        font-size: 9rem !important;
+        font-size: 10rem !important;
     }
 }
 
@@ -396,12 +396,10 @@
         height: auto;
        
     }
-    .heder-detail h2 {
-        font-size: 10rem !important;
-    }
+    
     .heroslider img {
         width: 100%;
-        height: auto !important;
+        height: 90vh !important;
     }
 }
 
@@ -484,7 +482,7 @@
         height: 100vh !important;
     }
     .heder-detail h2 {
-        font-size: 13rem !important;
+        font-size: 22rem !important;
     }
 }
 
@@ -568,7 +566,7 @@
         margin: 0 auto;
     }
     .heder-detail h2 {
-        font-size: 15rem !important;
+        font-size: 25rem !important;
     }
     .heroslider img {
         width: 100%;
@@ -584,7 +582,7 @@
         margin: 0 auto;
     }
     .heder-detail h2 {
-        font-size: 28rem;
+        font-size: 24rem;
     }
     .heroslider img {
         width: 100%;
