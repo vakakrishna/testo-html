@@ -99,7 +99,7 @@ header nav ul li a {
 /* ***********hero********* */
 #hero {
     position: relative;
-    height: 100vh;
+ 
 }
 
 .heroslider {
@@ -143,7 +143,7 @@ header nav ul li a {
 }
 
 .heder-detail h2 {
-    font-size: 24rem;
+    font-size: 20rem;
     color: white;
     padding-top: 7rem;
     font-weight: bold;
