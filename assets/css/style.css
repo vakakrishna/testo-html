@@ -109,10 +109,10 @@ header nav ul li a {
 .heder-detail {
     position: absolute;
     z-index: 999;
-    top: 50%;
-    left: 50%;
+    /* top: 50%;
+    left: 50%; */
     max-width: 80%;
-
+text-align: center;
 }
 
 .heroslider img {
