@@ -13,15 +13,22 @@ html {
     display: flex;
     flex-wrap: wrap;
 }
-
-
+input .form-contro {
+    font-size: 20px;
+}
+.navbar-brand {
+    font-size: 20px;
+}
 .heder-container {
     width: 100%;
     display: flex;
     margin: 0 auto;
     padding-top: 1rem;
 }
-
+.nav-link {
+    font-size: 20px;
+    padding-left: 40px;
+}
 button:not(:disabled) {
     background-color: white;
 }
@@ -1238,11 +1245,11 @@ footer {
     padding-bottom: 3rem;
 
 }
- 
+
 .footer-data img {
     width: 60%;
 }
-            
+
 .footer-data p {
     padding-top: 3rem;
     font-weight: bold;
