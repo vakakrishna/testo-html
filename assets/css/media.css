@@ -135,10 +135,10 @@
     }
 
     .heder-detail h2 {
-        font-size: 7rem !important;
+        font-size: 3.3rem !important;
     }
     .heder-detail h2 {
-        padding-top: 2rem;
+        padding-top: 2rem !important;
     }
     .heroslider img {
         width: 100%;
