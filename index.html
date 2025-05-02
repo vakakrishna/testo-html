@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css">
+
     <link rel="stylesheet" href="assets/css/media.css">
     <link rel="stylesheet" href="assets/css/osward.css">
     <link rel="stylesheet" href="assets/css/lilita-one.css">
     <link rel="stylesheet" href="assets/css/roboto.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <header>
+    
+      <header> 
         <div class="heder-container">
             <div class="abc">
                 <nav>
@@ -36,7 +38,7 @@
                 <img src="assets/img/LOGO BURGER.png" alt="">
 
                 <nav>
-                    <ul>
+                    <ul id="to-menu">
                         <li>
                             <a href="#">SHOP <i class="fa-solid fa-angle-down"></i></a>
                         </li>
@@ -47,11 +49,232 @@
                 </nav>
 
             </div>
+            <nav class="navik-menu menu-caret navik-yellow">
+                <ul class="top-list" style="width: 930px; display: none;">
+
+                    <!-- DROPDOWN MENU -->
+                    <li class="dropdown_menu"><a href="#">About<span></span></a>
+                        <ul>
+                            <li><a href="about.html">About Testo<span></span></a></li>
+                            <li><a href="team.html">Meet The Team<span></span></a></li>
+                            <li><a href="gallery.html">Images Gallery<span></span></a></li>
+                            <li><a href="gift-cards.html">Gift Cards<span></span></a></li>
+                            <li><a href="faqs.html">F.A.Q.s<span></span></a></li>
+                            <li><a href="terms.html">Terms &amp; Privacy<span></span></a></li>
+                        </ul>
+                    <span class="dropdown-plus"></span></li>
+
+                    <!-- DROPDOWN MENU -->
+                    <li class="dropdown_menu"><a href="#">Our Menu<span></span></a>
+                        <ul>
+                            <li><a href="menu-1.html">Menu v.1 - Tabs Cards<span></span></a></li>
+                            <li><a href="menu-2.html">Menu v.2 - Cards<span></span></a></li>
+                            <li><a href="menu-3.html">Menu v.3 - Sections<span></span></a></li>
+                        </ul>
+                    <span class="dropdown-plus"></span></li>
+
+                    <!-- MEGA MENU -->
+                    <li class="mega-menu dropdown_menu"><a href="#">Megamenu<span></span></a>
+                        <ul>
+                            <li>
+
+                                <!-- Mega menu container -->
+                                <div class="mega-menu-container">
+                                    <div class="row">
+
+                                        <!-- Column -->
+                                        <div class="col-md-6 col-lg-4">
+
+                                            <div class="mega-menu-box">
+                                                <div class="mega-menu-media">
+                                                    <div class="mega-menu-media-img">
+                                                        <div class="mega-menu-thumbnail">
+                                                            <a href="blog-listing.html">
+                                                                <img src="images/img-05.jpg" alt="thumbnail">
+                                                            <span></span></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mega-menu-media-info">
+                                                        <h4 class="mega-menu-heading"><a href="blog-listing.html">Aliquam and lobortis...<span></span></a></h4>
+                                                        <div class="mega-menu-desc">
+                                                            Donec nec faucibus lobortis viverra blandit sem justo
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="mega-menu-box">
+                                                <div class="mega-menu-media">
+                                                    <div class="mega-menu-media-img">
+                                                        <div class="mega-menu-thumbnail">
+                                                            <a href="blog-listing.html">
+                                                                <img src="images/img-01.jpg" alt="thumbnail">
+                                                            <span></span></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mega-menu-media-info">
+                                                        <h4 class="mega-menu-heading"><a href="blog-listing.html">Donec neca faucibus...<span></span></a></h4>
+                                                        <div class="mega-menu-desc">
+                                                            Aliquam ultrices ullamcoroe ultrices gravida dictum
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="mega-menu-box last-menu-box">
+                                                <div class="mega-menu-media">
+                                                    <div class="mega-menu-media-img">
+                                                        <div class="mega-menu-thumbnail">
+                                                            <a href="blog-listing.html">
+                                                                <img src="images/img-07.jpg" alt="thumbnail">
+                                                            <span></span></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mega-menu-media-info">
+                                                        <h4 class="mega-menu-heading"><a href="blog-listing.html">Lobortis sem mauris...<span></span></a></h4>
+                                                        <div class="mega-menu-desc">
+                                                            Integer aliquet magna neca tellus orci quis semper
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Column -->
+                                        <div class="col-md-6 col-lg-4">
+
+                                            <div class="mega-menu-box">
+                                                <div class="mega-menu-media">
+                                                    <div class="mega-menu-media-img">
+                                                        <div class="mega-menu-thumbnail">
+                                                            <a href="blog-listing.html">
+                                                                <img src="images/img-08.jpg" alt="thumbnail">
+                                                            <span></span></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mega-menu-media-info">
+                                                        <h4 class="mega-menu-heading"><a href="blog-listing.html">Fusce semper aliquet...<span></span></a></h4>
+                                                        <div class="mega-menu-desc">
+                                                            Laoreet tellus a consectetur bibendum dolor posuere
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="mega-menu-box">
+                                                <div class="mega-menu-media">
+                                                    <div class="mega-menu-media-img">
+                                                        <div class="mega-menu-thumbnail">
+                                                            <a href="blog-listing.html">
+                                                                <img src="images/img-09.jpg" alt="thumbnail">
+                                                            <span></span></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mega-menu-media-info">
+                                                        <h4 class="mega-menu-heading"><a href="blog-listing.html">Aliquam libero ipsum...<span></span></a></h4>
+                                                        <div class="mega-menu-desc">
+                                                            Sollicitudin ut gravida libero commodo sit malesuada
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="mega-menu-box last-menu-box">
+                                                <div class="mega-menu-media">
+                                                    <div class="mega-menu-media-img">
+                                                        <div class="mega-menu-thumbnail">
+                                                            <a href="blog-listing.html">
+                                                                <img src="images/img-10.jpg" alt="thumbnail">
+                                                            <span></span></a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mega-menu-media-info">
+                                                        <h4 class="mega-menu-heading"><a href="blog-listing.html">Posuere himenaeos...<span></span></a></h4>
+                                                        <div class="mega-menu-desc">
+                                                            Porta gravida hendrerit vitae blandit in phasellus ipsum
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Column -->
+                                        <div class="col-lg-4">
+
+                                            <div class="mega-menu-box last-menu-box">
+                                                <div class="mega-menu-thumbnail">
+                                                    <a href="blog-listing.html">
+                                                        <img src="images/img-26.jpg" alt="thumbnail">
+                                                    <span></span></a>
+                                                </div>
+                                                <h4 class="mega-menu-heading"><a href="blog-listing.html">Etiam semper mauris...<span></span></a></h4>
+                                                <div class="mega-menu-desc">
+                                                    Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor primis libero 
+                                                    tempus, blandit a cursus varius magna
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </li>
+                        </ul>
+                    <span class="dropdown-plus"></span></li>	<!-- END MEGA MENU -->
+
+                </ul><div class="logoCenter" style="width: 0px;"><div class="logo" data-mobile-logo="images/logo-01.png" data-sticky-logo="images/logo-01.png">
+                <a href="#hero-1"><img src="images/logo-01.png" alt="header-logo"></a>
+            </div></div>
+                <ul style="width: 930px; display: none;">
+
+                    <!-- DROPDOWN MENU -->
+                    <li class="dropdown_menu"><a href="#">Shop<span></span></a>
+                        <ul>
+                            <li><a href="product-single.html">Single Product<span></span></a></li>
+                            <li><a href="cart.html">Shopping Cart<span></span></a></li>
+                        </ul>
+                    <span class="dropdown-plus"></span></li>
+
+                    <!-- DROPDOWN MENU -->
+                    <li class="dropdown_menu"><a href="#">Blog<span></span></a>
+                        <ul>
+                            <li><a href="blog-listing.html">Blog Listing<span></span></a></li>
+                            <li><a href="single-post.html">Single Post<span></span></a></li>
+                        </ul>
+                    <span class="dropdown-plus"></span></li>
+
+                    <!-- DROPDOWN MENU -->
+                    <li class="dropdown_menu"><a href="#">Contacts<span></span></a>
+                        <ul>
+                            <li><a href="booking.html">Book A Table<span></span></a></li>
+                            <li><a href="locations.html">Our Locations<span></span></a></li>
+                            <li><a href="contacts.html">Contact Us<span></span></a></li>
+                        </ul>
+                    <span class="dropdown-plus"></span></li>
+
+                    <!-- BASKET ICON -->
+                    <li class="basket-ico ico-30">
+                        <a href="cart.html">
+                            <span class="ico-holder"><span class="flaticon-shopping-bag"></span> <em class="roundpoint">2</em></span>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
         </div>
     </header>
 
+    <script>
+        function tooglemenu() {
+            document.getElementById("menu").classList.toggle("showhide")
+        }
+    </script>
+
     <main>
-        <section id="hero">
+           <section id="hero"> 
             <div class="swiper heroslider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -61,7 +284,7 @@
                             <p>Open Daily: <span>11:30PM - 8:30PM</span></p>
 
                         </div>
-
+            
                     </div>
                     <div class="swiper-slide">
                         <img src="assets/img/bbbb2.jpg" alt="">
@@ -95,9 +318,12 @@
 
         <section id="about">
             <div class="container">
-                <div class="img">
-                    <img src="assets/img/about img.png" alt="">
-                    <div class="img-data">
+                <div class="row">
+                    <div class="col-lg-6 img">
+                        <img src="assets/img/about img.png" alt="">
+
+                    </div>
+                    <div class="col-lg-6  img-data">
                         <h2>Nothing brings people together like a good burger
                         </h2>
 
@@ -105,37 +331,39 @@
                             dolor lacinia cubilia curae at integer orci congue and metus in mollislorem primis gravida
                         </p>
 
-                        <div class="foods">
+                        <div class="row foods">
 
-                            <div class="burger">
+                            <div class="col-md-3 col-6 burger">
                                 <img src="assets/img/burger.png" alt="">
-                                <h2>Burgers
-                                </h2>
+                                <p>Burgers
+                                </p>
 
                             </div>
 
-                            <div class="fries">
+                            <div class=" col-md-3 col-6 fries">
                                 <img src="assets/img/fries.png" alt="">
-                                <h2>Fries
-                                </h2>
+                                <p>Fries
+                                </p>
 
                             </div>
 
-                            <div class="chicken">
+                            <div class="col-md-3 col-6 chicken">
                                 <img src="assets/img/chikan.png" alt="">
-                                <h2>Chicken
-                                </h2>
+                                <p>Chicken
+                                </p>
 
                             </div>
 
-                            <div class="salad">
+                            <div class="col-md-3 col-6 salad">
                                 <img src="assets/img/salad.png" alt="">
-                                <h2>Salads
-                                </h2>
+                                <p>Salads
+                                </p>
 
                             </div>
 
                         </div>
+
+
                     </div>
 
 
@@ -149,25 +377,31 @@
         <section id="burger-fries">
             <div class="container">
                 <div class="row bgdata">
-                    <div class="col-6 chees-fries">
-                        <div class="chees-fries-data">
-                            <h2>Get Your Free</h2>
-                            <h3>Cheese Fries</h3>
-                            <button class="common-btn">
-                                LEARN MORE
-                            </button>
+                    <div class="col-lg-5 col-md-12 ">
+                        <div class="chees-fries">
+                            <div class="chees-fries-data">
+                                <h2>Get Your Free</h2>
+                                <h3>Cheese Fries</h3>
+                                <button class="common-btn">
+                                    LEARN MORE
+                                </button>
+                            </div>
                         </div>
+
                     </div>
 
-                    <div class="col-6 burger-back">
-                        <div class="burger-back-data">
-                            <h2>Crispy Chicken</h2>
-                            <h1>Burger Is Back!</h1>
-                            <button class="common-btn">
-                                LEARN MORE
-                            </button>
+                    <div class="col-lg-6 col-md-12 burger123">
+                        <div class="burger-back">
+                            <div class="burger-back-data">
+                                <h2>Crispy Chicken</h2>
+                                <h1>Burger Is Back!</h1>
+                                <button class="common-btn">
+                                    LEARN MORE
+                                </button>
 
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -183,7 +417,7 @@
 
 
                 <div class="row burgur-menu">
-                    <div class="col-3 menu-detail">
+                    <div class="col-xl-3 col-lg-6 menu-detail">
                         <div class="menus-data">
                             <div class="imges-data">
                                 <img src="assets/img/menu1.jpg" alt="">
@@ -208,7 +442,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 menu-detail">
+                    <div class="col-xl-3 col-lg-6 menu-detail">
                         <div class="menus-data">
                             <div class="imges-data">
                                 <img src="assets/img/menu2.jpg" alt="">
@@ -229,7 +463,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 menu-detail">
+                    <div class="col-xl-3  col-lg-6 menu-detail">
                         <div class="menus-data">
                             <div class="imges-data">
                                 <img src="assets/img/menu3.jpg" alt="">
@@ -252,7 +486,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 menu-detail">
+                    <div class="col-xl-3 col-lg-6 menu-detail">
                         <div class="menus-data">
                             <div class="imges-data">
 
@@ -275,7 +509,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 menu-detail">
+                    <div class="col-xl-3 col-lg-6 menu-detail">
                         <div class="menus-data">
                             <div class="imges-data">
                                 <img src="assets/img/menu1.jpg" alt="">
@@ -296,7 +530,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 menu-detail">
+                    <div class="col-xl-3 col-lg-6 menu-detail">
                         <div class="menus-data">
 
                             <div class="imges-data">
@@ -318,7 +552,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 menu-detail">
+                    <div class="col-xl-3 col-lg-6 menu-detail">
                         <div class="menus-data">
                             <div class="imges-data">
                                 <img src="assets/img/menu3.jpg" alt="">
@@ -339,7 +573,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 menu-detail">
+                    <div class="col-xl-3 col-lg-6 menu-detail">
                         <div class="menus-data">
                             <div class="imges-data"> <img src="assets/img/menu4.jpg" alt="">
                                 <span>Code: 0844</span>
@@ -369,15 +603,15 @@
         <section id="the-county">
             <div class="container">
                 <div class="row the-county-data">
-                    <div class="col-4 county-data">
+                    <div class="col-xl-4 col-lg-12 county-data">
                         <h3>The</h3>
                         <h2>County General</h2>
                         <p>Semper lacus cursus porta a primis feugiat ligula risus auctor rhoncus semper undo</p>
                         <button class="common-btns">ORDER NOW</button>
                     </div>
-                    <div class="col-8 burgers-data">
-                        <div class="row">
-                            <div class="col-8">
+                    <div class="col-xl-8 col-lg-12 burgers-data">
+                        <div class="row circlered">
+                            <div class="col-lg-8">
                                 <div class="burgers-img">
                                     <img src="assets/img/backimg.png" alt="">
                                     <div class="red-circle">
@@ -389,22 +623,29 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-3">
-                                <div class="box-burger">
-                                    <img src="assets/img/rburger.png" alt="">
-                                    <h2>ultimate becon burger</h2>
-                                </div>
-                                <div class="box-burger">
-                                    <img src="assets/img/burger5.png" alt="">
-                                    <h2>grilled chicken burger</h2>
-                                </div>
-                            </div>
 
+                            <div class="col-lg-3">
+                                <div class="row boxes-bug">
+                                    <div class="col-lg-12 col-6">
+                                        <div class="box-burger">
+                                            <img src="assets/img/rburger.png" alt="">
+                                            <h2>ultimate becon burger</h2>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 col-6">
+                                        <div class="box-burger">
+                                            <img src="assets/img/burger5.png" alt="">
+                                            <h2>grilled chicken burger</h2>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
 
                     </div>
-
-
                 </div>
             </div>
         </section>
@@ -412,29 +653,37 @@
         <section id="salad">
             <div class="container">
                 <div class="row salad-data">
-                    <div class="col-3 sal-img">
-                        <img src="assets/img/burger.png" alt="">
-                        <h2>Burgers</h2>
+                    <div class="col-xl-3 col-sm-6 ">
+                        <div class="sal-img">
+                            <img src="assets/img/burger.png" alt="">
+                            <h2>Burgers</h2>
+                        </div>
                     </div>
-                    <div class="col-3 sal-img">
-                        <img src="assets/img/food.png" alt="">
-                        <h2>Sides
-                        </h2>
+                    <div class="col-xl-3 col-sm-6 ">
+                        <div class="sal-img">
+                            <img src="assets/img/food.png" alt="">
+                            <h2>Sides
+                            </h2>
+                        </div>
                     </div>
-                    <div class="col-3 sal-img">
-                        <img src="assets/img/salad.png" alt="">
-                        <h2>Salads
-                        </h2>
+                    <div class="col-xl-3 col-sm-6 ">
+                        <div class="sal-img">
+                            <img src="assets/img/salad.png" alt="">
+                            <h2>Salads
+                            </h2>
+                        </div>
                     </div>
-                    <div class="col-3 sal-img">
-                        <img src="assets/img/donut.png" alt="">
-                        <h2>Desserts</h2>
+                    <div class="col-xl-3 col-sm-6 ">
+                        <div class="sal-img">
+                            <img src="assets/img/donut.png" alt="">
+                            <h2>Desserts</h2>
+                        </div>
                     </div>
                 </div>
 
                 <div class="salad-box">
                     <div class="row salad-img">
-                        <div class="col-3 all-box">
+                        <div class="col-xl-3 col-md-6 all-box">
                             <div class="imgsalad">
                                 <img src="assets/img/salad-01.png" alt="">
                                 <div class="pay">
@@ -465,7 +714,7 @@
                             </div>
 
                         </div>
-                        <div class="col-3 all-box">
+                        <div class="col-xl-3 col-md-6 all-box">
                             <div class="imgsalad">
                                 <img src="assets/img/salad-02.png" alt="">
                                 <div class="pay">
@@ -495,7 +744,7 @@
 
                             </div>
                         </div>
-                        <div class="col-3 all-box">
+                        <div class="col-xl-3 col-md-6 all-box">
                             <div class="imgsalad">
                                 <img src="assets/img/salad-03.png" alt="">
                                 <div class="pay">
@@ -526,7 +775,7 @@
 
                             </div>
                         </div>
-                        <div class="col-3 all-box">
+                        <div class="col-xl-3 col-md-6 all-box">
                             <div class="imgsalad">
                                 <img src="assets/img/salad-04.png" alt="">
                                 <div class="pay">
@@ -668,10 +917,11 @@
                                     </h2>
 
                                 </div>
-                                x
+                                
                             </div>
-                        </div>
-                        <div class="swiper-pagination">
+                            <div class="swiper-pagination">
+                            </div>
+    
                         </div>
                     </div>
                 </div>
@@ -681,7 +931,7 @@
         <section id="tuna">
             <div class="container">
                 <div class="row tuna-datas">
-                    <div class="col-4 tuna-detail">
+                    <div class="col-lg-4 col-md-6 tuna-detail">
                         <div class="dd">
                             <img src="assets/img/tune img.jpg" alt="">
                         </div>
@@ -696,7 +946,7 @@
                             </h2>
                         </div>
                     </div>
-                    <div class="col-4 tuna-detail">
+                    <div class="col-lg-4 col-md-6 tuna-detail">
                         <div class="dd">
                             <img src="assets/img/cricpy.jpg" alt="">
 
@@ -712,7 +962,7 @@
                             </h2>
                         </div>
                     </div>
-                    <div class="col-4 tuna-detail">
+                    <div class="col-lg-4 col-md-6 tuna-detail">
                         <div class="dd">
                             <img src="assets/img/egg.jpg" alt="">
 
@@ -735,26 +985,26 @@
 
         <section id="burger-offer">
             <div class="container">
-                <div class="row abc">
-                    <div class="col-6 fffer-img">
+                <div class="row abcd">
+                    <div class="col-lg-6 col-md-6 fffer-img">
                         <div class="wer">
                             <img src="assets/img/specialburger.jpg" alt="">
 
                         </div>
                     </div>
-                    <div class="col-6 fffer-img">
+                    <div class="col-lg-6 col-md-6 fffer-img">
                         <div class="wer">
                             <img src="assets/img/spb2.jpg" alt="">
 
                         </div>
                     </div>
-                    <div class="col-6 fffer-img">
+                    <div class="col-lg-6 col-md-6 fffer-img">
                         <div class="wer">
                             <img src="assets/img/spb3.jpg" alt="">
 
                         </div>
                     </div>
-                    <div class="col-6 fffer-img">
+                    <div class="col-lg-6 col-md-6 fffer-img">
                         <div class="wer">
                             <img src="assets/img/spb3.jpg" alt="">
 
@@ -771,7 +1021,7 @@
                 <p class="sub-title">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor primis libero
                     tempus, blandit a cursus varius magna</p>
                 <div class="row off-bug">
-                    <div class="col-4 off-bug-data">
+                    <div class="col-lg-4 off-bug-data">
                         <div class="imges-bug">
                             <div class="crispy-data">
                                 <img src="assets/img/crispychickennn.jpg" alt="">
@@ -800,7 +1050,7 @@
                         </div>
 
                     </div>
-                    <div class="col-4 off-bug-data">
+                    <div class="col-lg-4 off-bug-data">
                         <div class="criispy-detail">
                             <div class="iii-star">
                                 <i class="fa-solid fa-star"></i>
@@ -828,7 +1078,7 @@
                         </div>
 
                     </div>
-                    <div class="col-4 off-bug-data">
+                    <div class="col-lg-4 off-bug-data">
                         <div class="crispy-data">
                             <img src="assets/img/fries2.jpg" alt="">
                             <span>Code: 0961</span>
@@ -862,8 +1112,9 @@
 
         <section id="save-up">
             <div class="container">
-                <div class="row">
-                    <div class="col-5 e-shop">
+                <div class="row save-ups">
+                    <div class="col-lg-5 col-md-12 ">
+                        <div class="e-shop">
                         <h2>Download mobile App and
                         </h2>
                         <h3>save up to 20%
@@ -872,7 +1123,7 @@
                             blandit varius
 
                         </p>
-
+                    </div>
                         <div class="app">
                             <img src="assets/img/appstore.png" alt="">
                             <div class="apps">
@@ -881,8 +1132,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 e-shop-data">
-                        <img src="assets/img/eshopimg.png" alt="">
+                    <div class="col-lg-4 col-md-12">
+                        <div class="e-shop-data">
+                            <img src="assets/img/eshopimg.png" alt="">
+
+                        </div>
 
                     </div>
                 </div>
@@ -897,7 +1151,7 @@
                 <p class="sub-title">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor primis libero
                     tempus, blandit a cursus varius magna</p>
                 <div class="row img1">
-                    <div class="col-3 imggal-1">
+                    <div class="col-lg-3 col-6 imggal-1">
                         <div class="imges">
                             <img src="assets/img/imgga1.jpg" alt="">
 
@@ -914,7 +1168,7 @@
                         </div>
 
                     </div>
-                    <div class="col-3 imggal-1">
+                    <div class="col-lg-3 col-6 imggal-1">
                         <div class="imges">
                             <img src="assets/img/imgga2.jpg" alt="">
 
@@ -930,7 +1184,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 imggal-1">
+                    <div class="col-lg-3 col-6 imggal-1">
                         <div class="imges">
                             <img src="assets/img/imgga3.jpg" alt="">
 
@@ -946,7 +1200,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 imggal-1">
+                    <div class="col-lg-3 col-6 imggal-1">
                         <div class="imges">
                             <img src="assets/img/imgga4.jpg" alt="">
 
@@ -962,7 +1216,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 imggal-2">
+                    <div class="col-lg-3 col-6 imggal-2">
                         <div class="imges">
                             <img src="assets/img/imgga5.jpg" alt="">
 
@@ -978,7 +1232,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 imggal-2">
+                    <div class="col-lg-3 col-6 imggal-2">
                         <div class="imges">
                             <img src="assets/img/imgga6.jpg" alt="">
                             <div class="point">
@@ -994,7 +1248,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 imggal-2">
+                    <div class="col-lg-3 col-6 imggal-2">
                         <div class="imges">
                             <img src="assets/img/imgga7.jpg" alt="">
 
@@ -1010,7 +1264,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-3 imggal-2">
+                    <div class="col-lg-3 col-6 imggal-2">
                         <div class="imges">
                             <img src="assets/img/imgga8.jpg" alt="">
 
@@ -1105,7 +1359,7 @@
                     tempus, blandit a cursus varius magna
                 </p>
                 <div class="row event-data">
-                    <div class="col-4">
+                    <div class="col-xl-4 col-md-6">
                         <div class="eve-img">
                             <img src="assets/img/event1.jpg" alt="">
                         </div>
@@ -1116,7 +1370,7 @@
                         </div>
 
                     </div>
-                    <div class="col-4">
+                    <div class="col-xl-4 col-md-6">
                         <div class="eve-img">
                             <img src="assets/img/event2.jpg" alt="">
                         </div>
@@ -1128,7 +1382,7 @@
 
 
                     </div>
-                    <div class="col-4">
+                    <div class="col-xl-4 col-md-6">
                         <div class="eve-img">
                             <img src="assets/img/event3.jpg" alt="">
                         </div>
@@ -1157,12 +1411,12 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-3 footer-data">
+                <div class="col-lg-3 col-md-6 footer-data">
                     <img src="assets/img/LOGO BURGER.png" alt="">
                     <p>© 2020 Testo. All Rights Reserved</p>
                 </div>
 
-                <div class="col-5">
+                <div class="col-lg-5 col-md-6">
                     <div class="los">
                         <p>Los Angeles,</p>
                         <p>8721 M Central Avenue, CA 90036 </p>
@@ -1171,28 +1425,28 @@
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-md-12 col-lg-4 col-xl-3">
 
                     <div class="datas">
-                        <ul>
+                        <ul class="row last-footer">
 
-                            <li>
+                            <li class="col-lg-4 col-sm-2 col-3">
                                 <a href="#"><img src="assets/img/footer1.jpg" alt=""></a>
                             </li>
 
-                            <li>
+                            <li class="col-lg-4 col-sm-2 col-3">
                                 <a href="#"><img src="assets/img/footer2.jpg" alt=""></a>
                             </li>
-                            <li>
+                            <li class="col-lg-4 col-sm-2 col-3">
                                 <a href="#"><img src="assets/img/footer3.jpg" alt=""></a>
                             </li>
-                            <li>
+                            <li class="col-lg-4 col-sm-2 col-3">
                                 <a href="#"><img src="assets/img/footer4.jpg" alt=""></a>
                             </li>
-                            <li>
+                            <li class="col-lg-4 col-sm-2 col-3">
                                 <a href="#"><img src="assets/img/footer5.jpg" alt=""></a>
                             </li>
-                            <li>
+                            <li class="col-lg-4 col-sm-2 col-3">
                                 <a href="#"><img src="assets/img/footer6.jpg" alt=""></a>
                             </li>
                         </ul>
@@ -1251,7 +1505,7 @@
                     spaceBetween: 20,
                 },
                 768: {
-                    slidesPerView: 4,
+                    slidesPerView: 3,
                     spaceBetween: 40,
                 },
                 1024: {

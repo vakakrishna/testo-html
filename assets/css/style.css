@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html {
+    /* 1rem = 10px */
+    font-size: 62.5%;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -14,13 +19,16 @@
     width: 100%;
     display: flex;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 1rem;
 }
 
+button:not(:disabled) {
+    background-color: white;
+}
 
 .abc {
     display: flex;
-    margin-left: 180px;
+    margin: 0 auto;
 }
 
 header {
@@ -29,7 +37,7 @@ header {
     z-index: 9999;
     background-color: white;
     width: 100%;
-    height: 100px;
+    height: 10rem;
 }
 
 header::after {
@@ -46,8 +54,8 @@ header nav ul li a {
     font-family: "Oswald";
     text-decoration: none;
     color: black;
-    font-size: 20px;
-    padding: 0 10px;
+    font-size: 2rem;
+    padding: 0 1rem;
 
 }
 
@@ -56,7 +64,7 @@ header nav ul li a:hover {
 }
 
 .heder-container img {
-    height: 80px;
+    height: 8rem;
     max-width: 24%;
 }
 
@@ -76,7 +84,7 @@ header nav ul li a:hover {
 .heder-detail {
     position: absolute;
     z-index: 999;
-    top: 50px;
+    top: 5rem;
     left: 6rem;
     max-width: 80%;
 
@@ -88,20 +96,20 @@ header nav ul li a:hover {
 }
 
 .heroslider .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
+    width: 1rem;
+    height: 1rem;
 }
 
 .heroslider .swiper-pagination-bullet-active {
     background: #aaa;
     color: white;
-    width: 10px;
-    height: 10px;
+    width: 1rem;
+    height: 1rem;
 }
 
 .heroslider .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +118,7 @@ header nav ul li a:hover {
 }
 
 .heder-detail h2 {
-    font-size: 7.5rem;
+    font-size: 11.5rem;
     color: white;
     padding-top: 7rem;
     font-weight: bold;
@@ -136,21 +144,23 @@ header nav ul li a:hover {
 
 .layer {
     position: absolute;
-    height: 40px;
+    height: 4rem;
     z-index: 999;
     position: fixed;
-    height: 50px;
-    padding: 10px;
+    height: 5rem;
+    padding: 1rem;
     border-radius: 6px;
     top: 10rem;
-    right: 0px;
+    right: 0;
     font-size: 1.6rem;
     background-color: red;
     color: white !important;
 }
+
 .layer i {
     color: white;
 }
+
 .layer1 {
     opacity: 0;
 }
@@ -158,51 +168,50 @@ header nav ul li a:hover {
 /* *********about******************* */
 
 #about {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .img {
     display: flex;
-    height: 600px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
-
+.img img {
+    height: 60rem;
+}
 .img-data h2 {
     color: #642f21;
-    padding-bottom: 25px;
-    font-size: 4.4rem;
+    padding-bottom: 2rem;
+    font-size: 6.4rem !important;
     font-weight: 500;
-    padding-left: 30px;
+    padding-left: 3rem !important;
     font-family: "Oswald";
-
+    padding-top: 8rem;
 }
 
 .img-data p {
     color: #757575;
-    font-size: 1.15rem;
-    padding-left: 30px;
+    font-size: 1.8rem;
+    padding-left: 3rem;
 }
 
 .foods {
     display: flex;
     justify-content: space-between;
-    padding-left: 35px;
+    padding-left: 3rem;
+
 }
 
 .foods img {
-    height: 120px;
+    height: 10rem;
     padding: 1rem;
 }
 
-.foods h2 {
-    font-size: 1.4rem;
+.foods p {
+    font-size: 1.9rem;
     color: black;
     font-family: "Oswald";
-    text-align: center;
-    padding-left: 1rem;
-
 }
 
 /* *********burger-fries********** */
@@ -211,56 +220,56 @@ header nav ul li a:hover {
     padding-bottom: 5rem;
 }
 
+.burger123 {
+    width: 58%;
+}
+
 .bgdata {
     display: flex;
     justify-content: space-between;
+    row-gap: 2rem;
 }
 
 .chees-fries {
-    height: 20rem;
-    width: 100%;
-    /* position: absolute; */
+    position: relative;
+    background-image: url(../img/pb-2-1.jpg);
+    height: 36rem;
 }
 
 
 .chees-fries-data {
-    /* position: relative; */
-    background-image: url(../img/pb-2-1.jpg);
-    height: 360px;
-    border-radius: 14px;
-
+    border-radius: 1.4rem;
+    position: absolute;
+    top: 8rem;
+    right: 4rem;
 }
 
 .chees-fries-data h2 {
     color: #6f5e4d;
     font-family: "Oswald";
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     font-weight: 300;
     text-align: right;
-    padding: 80px 35px 0px 50px;
     border-radius: 6px;
 }
 
 .chees-fries-data h3 {
     color: #6f5e4d;
     font-family: "Oswald";
-    font-size: 2.5rem;
-    max-width: 60%;
-    margin-left: 20rem;
+    font-size: 4.5rem;
     font-weight: bold;
 }
 
 .common-btn {
-    height: 47px;
-    width: 37%;
+    height: 4.7rem;
+    width: 100%;
     border: none;
-    background-color: red;
+    background-color: red !important;
     font-family: "Oswald";
     color: white;
     font-weight: bold;
-    font-size: 1.2rem;
-    margin-left: 20rem;
-    margin-top: 1rem;
+    font-size: 2.2rem;
+    margin-top: 2rem;
     position: relative;
 }
 
@@ -273,20 +282,24 @@ header nav ul li a:hover {
     position: absolute;
 }
 
-.burger-back-data {
+.burger-back {
     position: relative;
     background-image: url(../img/pb-2-2.jpg);
-    border-radius: 14px;
-    height: 360px;
+    height: 36rem;
+}
+
+.burger-back-data {
+    position: absolute;
+    top: 0rem;
+    right: 4rem;
+
 }
 
 .burger-back-data h2 {
     color: #6f5e4d;
-    padding-top: 5rem;
+    padding-top: 7rem;
     font-family: "Oswald";
-    font-size: 2.5rem;
-    max-width: 60%;
-    margin-left: 20rem;
+    font-size: 4.5rem;
     font-weight: 300;
 
 }
@@ -294,9 +307,7 @@ header nav ul li a:hover {
 .burger-back-data h1 {
     color: #6f5e4d;
     font-family: "Oswald";
-    font-size: 2.5rem;
-    max-width: 60%;
-    margin-left: 17rem;
+    font-size: 4.5rem;
     font-weight: bold;
 
 }
@@ -338,12 +349,12 @@ header nav ul li a:hover {
 }
 
 .money-data {
-    padding: 0 14px 15px 14px;
+    padding: 0 1.4rem 1.5rem 1.4rem;
 }
 
 .imges-data img {
     width: 100%;
-    border-radius: 6px 6px 0 0;
+    border-radius: 0.6rem 0.6rem 0 0;
     position: relative;
     overflow: hidden;
 }
@@ -359,11 +370,11 @@ header nav ul li a:hover {
     top: 0;
     left: 0;
     background-color: rgba(10, 10, 10, .4);
-    margin-left: 10px;
-    margin-top: 10px;
-    padding: 5px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
     color: white;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 
 .imges-data img:hover {
@@ -374,14 +385,13 @@ header nav ul li a:hover {
 }
 
 .menu-star {
-    padding: 10px;
+    padding: 1rem;
     display: flex;
-
 }
 
 .menu-star i {
     color: #f7be27;
-
+    font-size: 1.4rem;
 }
 
 
@@ -389,8 +399,8 @@ header nav ul li a:hover {
     color: #aaa;
     font-weight: 500;
     float: right;
-    font-size: 20px;
-    padding-left: 8rem;
+    font-size: 2rem;
+    padding-left: 15rem;
 }
 
 .menu-star a i:hover {
@@ -403,20 +413,20 @@ header nav ul li a:hover {
     color: #642f21;
     font-weight: 500;
     font-size: 1.6rem;
-    padding: 10px 0 12px 0;
+    padding: 1rem 0 1.2rem 0;
 }
 
 .money-data .cilli {
     color: #757575;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .money-data .money {
-    height: 35px;
+    height: 3.5rem;
     width: 28%;
     background-color: #642f21;
-    border-radius: 7px;
-    font-size: 19px;
+    border-radius: 0.7rem;
+    font-size: 1.9rem;
     text-align: center;
     color: #f7be27;
     font-weight: bold;
@@ -428,7 +438,7 @@ header nav ul li a:hover {
     background-image: url(../img/backyellow.jpg);
     margin-top: 8rem;
     background-position: top center;
-    background-size: 100% auto;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
@@ -454,33 +464,33 @@ header nav ul li a:hover {
     color: white;
     font-family: "Oswald";
     text-transform: uppercase;
-    max-width: 40%;
 }
 
 .county-data p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: white;
     font-family: "Roboto";
-    max-width: 90%;
+    text-align: left;
 }
 
 .common-btns {
-    height: 47px;
+    height: 4.7rem;
     width: 37%;
     border: none;
-    background-color: red;
+    background-color: red !important;
     font-family: "Oswald";
     color: white;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     margin-top: 0.60rem;
 
 }
 
-.burgers-data {
-    padding: 5rem 0 5rem 0;
 
+.burgers-img {
+    position: relative;
+    text-align: center;
 }
 
 .the-county-data {
@@ -488,23 +498,26 @@ header nav ul li a:hover {
     align-items: center;
 }
 
-.burgers-img img {
-    height: 450px;
+.circlered {
     position: relative;
+    padding: 5rem 0rem;
+}
+
+.burgers-img img {
+    width: 80%;
 }
 
 .red-circle {
     background-image: url(../img/red.png);
-    top: 110px;
-    right: 369px;
+    top: 5rem;
+    right: 0rem;
     position: absolute;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     color: red;
-    height: 200px;
-    width: 195px;
-
+    height: 20rem;
+    width: 19rem;
 }
 
 .circle-data {
@@ -518,26 +531,31 @@ header nav ul li a:hover {
 .circle-data h2 {
     font-family: "Oswald";
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
+
 }
 
 .circle-data h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
+    padding-top: 2rem;
 }
 
 
 .circle-data h3 {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
+.circle-data p {
+    font-size: 1.5rem;
+}
 
 .box-burger {
     border: 2px solid rgba(255, 255, 255, .5);
     background-color: transparent;
     border-radius: 6px;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 3rem;
+    margin-bottom: 2.4rem;
 
 }
 
@@ -546,12 +564,12 @@ header nav ul li a:hover {
 }
 
 .box-burger img {
-    height: 100px;
+    height: 10rem;
 }
 
 .box-burger h2 {
     color: white;
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-align: center;
     padding-top: 1rem;
 }
@@ -559,21 +577,25 @@ header nav ul li a:hover {
 /* ************salad*******************8 */
 
 #salad {
-    padding: 8rem;
-    margin-left: 5rem;
+    padding-bottom: 8rem;
+    padding-top: 8rem;
 
+}
+
+.sal-img {
+    text-align: center;
 }
 
 .salad-data {
     display: flex;
     justify-content: center;
-    margin-left: 10rem;
+    margin-bottom: 3rem;
+    margin: 0 auto;
     margin-bottom: 3rem;
 }
 
 .sal-img img {
-    height: 60px;
-    align-items: center;
+    height: 6rem;
 }
 
 .sal-img img:hover {
@@ -585,7 +607,6 @@ header nav ul li a:hover {
     text-align: center;
     text-transform: uppercase;
     padding-top: 1rem;
-    padding-right: 8.4rem;
     font-family: "Oswald";
 
 
@@ -601,8 +622,8 @@ header nav ul li a:hover {
 
 .imgsalad {
     border: 1px solid #e5e5e5;
-    padding: 25px 14px 20px;
-    border-radius: 6px;
+    padding: 2.5rem 1.4rem 2rem;
+    border-radius: 0.6rem;
     position: relative;
 
 }
@@ -622,12 +643,12 @@ header nav ul li a:hover {
 
 .money {
     background-color: #642f21;
-    border-radius: 7px;
-    font-size: 19px;
+    border-radius: 0.7rem;
+    font-size: 1.9rem;
     text-align: center;
     color: #f7be27;
     font-weight: bold;
-    padding: 5px;
+    padding: 0.5rem;
     margin-right: 1.8rem;
 
 }
@@ -639,27 +660,28 @@ header nav ul li a:hover {
 
 .heart-ican {
     position: absolute;
-    top: 5px;
-    right: 6px;
+    top: 0.5rem;
+    right: 0.6rem;
 }
 
 .heart-ican a i {
     color: #757575;
+    font-size: 2rem;
 }
 
 .add-to-cart {
-    padding: 15px;
+    padding: 1.5rem;
 }
 
 .i-star {
-    padding-top: 8px;
+    padding-top: 0.8rem;
     color: #f7be27;
-
+    font-size: 1.5rem;
 }
 
 .add-to-cart h2 {
     color: #642f21;
-    font-size: 20px;
+    font-size: 2rem;
     font-family: "Oswald";
     text-align: center;
     text-transform: uppercase;
@@ -667,23 +689,24 @@ header nav ul li a:hover {
 
 .add-to-cart p {
     color: #283034;
-    font-size: 15px;
+    font-size: 1.5rem;
     text-align: center;
     font-weight: 300;
 }
 
 .add {
-    height: 50px;
+    height: 5rem;
     width: 100%;
     color: black;
     font-family: "Oswald";
-    padding: 10px;
+    padding: 1rem;
     border: 2px solid #aaa;
     background-color: white;
+    font-size: 1.5rem;
 }
 
 .add img {
-    height: 30px;
+    height: 3rem;
 }
 
 .add:hover {
@@ -697,28 +720,33 @@ header nav ul li a:hover {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 100vh;
+    height: auto;
     width: 100%;
     position: relative;
     margin-bottom: 10rem;
 }
 
+.p-data {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    /* padding-top: 4rem; */
+}
 
 .document-slider .swiper-slide {
     text-align: center;
-    font-size: 18px;
+    font-size: 1.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
+    margin: 0 auto;
 }
 
 .document-slider .swiper-slide img {
     display: block;
-    /* width: 100%;
-    height: 100%; */
     object-fit: cover;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
 }
 
 .document-slider .swiper-slide::after {
@@ -727,32 +755,38 @@ header nav ul li a:hover {
     clear: both;
 }
 
-
 .p-data p {
     color: white;
     text-align: center;
     font-size: 2rem;
-    max-width: 85%;
-    text-align: center;
+    max-width: 55%;
+    text-align: center !important;
     margin: 0 auto;
-
+    padding-top: 2rem;
+    line-height: 3rem;
+    padding-bottom: 1rem;
 }
 
 .document-slider .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
+    width: 1rem;
+    height: 1rem;
+    /* margin-top: 3rem; */
+
+
 }
 
 .document-slider .swiper-pagination-bullet-active {
     background: gray;
-    width: 10px;
-    height: 10px;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid gainsboro;
+
 }
 
 .p-data img {
     margin: 0 auto;
-    height: 110px;
-    width: 10%;
+    height: 11rem;
+    width: 11rem;
     border-radius: 50%;
 
 }
@@ -768,7 +802,7 @@ header nav ul li a:hover {
     color: white;
     padding-top: 1rem;
     font-family: "Oswald";
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 
 
@@ -777,7 +811,7 @@ header nav ul li a:hover {
 .tuna-datas {
     display: flex;
     justify-content: space-between;
-    row-gap: 1rem;
+    row-gap: 2rem;
     margin-bottom: 5rem;
 }
 
@@ -790,7 +824,7 @@ header nav ul li a:hover {
 .tuna-detail img {
     width: 100%;
     height: 100%;
-    border-radius: 6px;
+    border-radius: 0.6rem;
     overflow: hidden;
     transition: all 1s;
 }
@@ -809,35 +843,37 @@ header nav ul li a:hover {
 
 
 .tuna-detail span {
-    top: 10px;
-    left: 28px;
+    top: 1rem;
+    left: 2.8rem;
     position: absolute;
     z-index: 999;
     background-color: #f7be27;
     color: white;
-    padding: 5px;
-    border-radius: 6px;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1.6rem;
 }
 
 .crispy {
-    padding: 10px;
+    padding: 0.6rem;
 }
 
 .crispy h2 {
-    color: #642f21;
-    font-size: 20px;
+    color: #642f;
+    font-size: 2rem;
     font-family: "Oswald";
 
 }
 
 .crispy p {
-    font-size: 15px;
+    font-size: 1.5rem;
     color: #888;
+
 }
 
 /* &&&&&&&&&&burger-offe%%% */
 
-.abc {
+.abcd {
     justify-content: space-between;
     display: flex;
     row-gap: 1rem;
@@ -845,17 +881,17 @@ header nav ul li a:hover {
 
 .wer img {
     width: 100%;
-    height: 370px;
+    height: 37rem;
     margin-bottom: 2rem;
-    border-radius: 6px 6px 6px 6px;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.6rem;
 }
 
 .fffer-img {}
 
 .wer {
-    border-radius: 6px;
+    border-radius: 0.6rem;
     overflow: hidden;
-    height: 250px;
+    height: 25rem;
 }
 
 .wer img {
@@ -867,7 +903,7 @@ header nav ul li a:hover {
     transform: scale(1.1);
     transition: all 1s;
     overflow: hidden;
-    border-radius: 6px;
+    border-radius: 0.6rem;
 }
 
 /* ******best-offer************ */
@@ -881,27 +917,32 @@ header nav ul li a:hover {
 
 }
 
+.off-bug {
+    row-gap: 1rem;
+}
+
 .crispy-data {
     position: relative;
     overflow: hidden;
-    border-radius: 6px;
+    border-radius: 0.6rem;
 }
 
 .crispy-data span {
     position: absolute;
     z-index: 999;
-    top: 10px;
-    left: 10px;
+    top: 1rem;
+    left: 1rem;
     background-color: rgba(10, 10, 10, .4);
     color: white;
-    padding: 5px;
-    border-radius: 6px;
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    font-size: 1.4rem;
 }
 
 .crispy-data img {
     width: 100%;
-    border-radius: 6px;
-    height: 285px;
+    border-radius: 0.6rem;
+    height: 28rem;
     overflow: hidden;
 
 }
@@ -909,7 +950,7 @@ header nav ul li a:hover {
 .crispy-data img:hover {
     transition: all 1s;
     transform: scale(1.2);
-    border-radius: 6px;
+    border-radius: 0.6rem;
 }
 
 .iii-star {
@@ -920,6 +961,7 @@ header nav ul li a:hover {
     display: flex;
     float: left;
     color: #f7be27;
+    font-size: 1.4rem
 }
 
 .iii-star a {
@@ -927,14 +969,14 @@ header nav ul li a:hover {
 }
 
 .criispy-detail h2 {
-    font-size: 2rem;
+    font-size: 2.4rem;
     color: #642f21;
     padding-left: 0;
-    padding-top: 1rem;
+    padding-top: 1.6rem;
 }
 
 .criispy-detail p {
-    font-size: 1rem;
+    font-size: 1.7rem;
     color: #888;
 }
 
@@ -945,16 +987,16 @@ header nav ul li a:hover {
 .criispy-detail h3 {
     color: #757575;
     font-family: "Oswald";
-    font-size: 1.7rem;
-    padding-right: 10px;
+    font-size: 2rem;
+    padding-right: 1rem;
 }
 
 
 .criispy-detail span {
     color: red;
     font-family: "Oswald";
-    font-size: 1.7rem;
-    padding-bottom: 8px;
+    font-size: 2rem;
+    padding-bottom: 0.8rem;
 }
 
 /* **********save-up********* */
@@ -963,28 +1005,32 @@ header nav ul li a:hover {
     margin-top: 10rem;
     background-color: #f7be27;
     position: relative;
-    height: 420px;
+    height: 42rem;
 
 }
 
+.save-ups {
+    display: flex;
+}
 
 .e-shop h2 {
     font-family: "Oswald";
-    font-size: 2rem;
-    padding-top: 5rem;
+    font-size: 4rem;
+    padding-top: 7rem;
     color: #642f21;
     font-weight: 400;
 }
 
 .e-shop h3 {
     font-family: "Oswald";
-    font-size: 4rem;
+    font-size: 6rem;
     color: #642f21;
 }
 
 .e-shop p {
     color: #642f21;
     max-width: 75%;
+    font-size: 1.4rem;
 }
 
 .e-shop-data img {
@@ -993,10 +1039,12 @@ header nav ul li a:hover {
     top: -30px;
     padding-left: 3rem;
     width: 50%;
+    object-fit: contain;
 }
 
 .app {
     display: flex;
+    padding-top: 2rem;
 }
 
 .app img {
@@ -1038,9 +1086,9 @@ header nav ul li a:hover {
 .point h2 {
     top: 9rem;
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
     font-family: "Oswald";
-    margin-left: 20px;
+    margin-left: 2rem;
     font-weight: bold;
 }
 
@@ -1052,8 +1100,9 @@ header nav ul li a:hover {
 
 .point span {
     color: white;
-    margin-left: 20px;
+    margin-left: 2rem;
     font-weight: bold;
+    font-size: 2rem;
 }
 
 .point i {
@@ -1090,7 +1139,7 @@ header nav ul li a:hover {
 }
 
 .detail-sliders img {
-    height: 200px;
+    height: 20rem;
 }
 
 /* **********events******** */
@@ -1100,6 +1149,7 @@ header nav ul li a:hover {
 
 .event-data {
     row-gap: 1rem;
+    justify-content: space-between;
 }
 
 .eve-img {
@@ -1108,7 +1158,7 @@ header nav ul li a:hover {
 
 .eve-img img {
     width: 100%;
-    height: 300px;
+    height: 30rem;
 }
 
 .eve-img:hover img {
@@ -1120,7 +1170,7 @@ header nav ul li a:hover {
     color: #642f21;
     text-align: center;
     font-family: "Oswald";
-    font-size: 1.8rem;
+    font-size: 2.8rem;
     padding-top: 1rem;
     text-transform: uppercase;
 }
@@ -1133,32 +1183,37 @@ header nav ul li a:hover {
     color: #757575;
     text-align: center;
     text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-top: 2rem;
 }
 
 /* **********map*************** */
 #map {
     background-image: url(../img/map.png);
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     position: relative;
-
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .layer1 {
     position: absolute;
     z-index: 999;
     position: fixed;
-    height: 50px;
-    padding: 12px;
-    border-radius: 6px;
+    height: 5rem;
+    padding: 1.2rem;
+    border-radius: 0.6rem;
     top: 30rem;
-    right: 10px;
-    font-size: 1.6rem;
+    right: 1rem;
+    font-size: 2rem;
     background-color: red;
     color: white !important;
     opacity: 1;
 
 }
+
 .layer1 i {
     color: white;
 }
@@ -1173,15 +1228,21 @@ footer {
     padding-top: 7rem;
 }
 
+.last-footer {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+
 .footer-data {
     padding-bottom: 3rem;
 
 }
-
+ 
 .footer-data img {
     width: 60%;
 }
-
+            
 .footer-data p {
     padding-top: 3rem;
     font-weight: bold;
@@ -1192,7 +1253,7 @@ footer {
 }
 
 .los p {
-    font-size: 1.2rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
@@ -1201,12 +1262,12 @@ footer {
     color: black;
     font-size: 1.2rem;
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 1rem;
 }
 
 .los span {
     color: #f7be27;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .footerdetail {
@@ -1217,12 +1278,9 @@ footer {
     text-decoration: none;
 }
 
-.datas ul {
+/* .datas ul {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    row-gap: 1rem;
-}
+} */
 
 .footer-img ul li {
     text-decoration: none;
@@ -1239,6 +1297,7 @@ footer {
 .datas li {
     text-decoration: none;
     list-style-type: none;
+    padding: 0;
 }
 
 .datas li a {
@@ -1247,16 +1306,16 @@ footer {
 }
 
 .datas {
-    max-width: 80%;
+    max-width :100%;
 }
 
 .datas li a img {
-    height: 75px;
-    width: 75px;
-    border-radius: 5px;
-    float: left;
+    height: 8rem;
+    width: 8rem;
+border-radius: 1rem;
 }
 
 .re {
     display: flex;
 }
+

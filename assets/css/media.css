@@ -1,84 +1,543 @@
 /* (0-575) 1rem=*/
-@media screen and (max-width: 575px) { 
-    .container {
-        max-width: 100%;
-    }
-    .col-1 {
-        width: 8.33%;
+/* 1rem = 8px */
+@media screen and (max-width: 575px) {
+    html {
+        font-size: 50%;
     }
 
-    .col-2 {
-        width: 16.67%;
+    .datas li a img {
+        height: 6rem;
+        width: 6rem;
     }
 
-    .col-3 {
-        width: 25.00%;
+    .red-circle {
+        top: 3rem !important;
     }
 
-    .col-4 {
-        width: 33.33%;
+    .img {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin: 0 auto;
     }
 
-    .col-5 {
-        width: 41.67%;
+    .burger123 {
+        width: 100% !important;
     }
 
-    .col-6 {
-        width: 50.00%;
+    .menu-star a i {
+        padding-left: 47rem;
     }
 
-    .col-7 {
-        width: 58.33%;
+    .county-data h3 {
+        text-align: center;
     }
 
-    .col-8 {
-        width: 66.67%;
+    .county-data h2 {
+        text-align: center;
     }
 
-    .col-9 {
-        width: 75.00%;
+    .box-burger img {
+        height: 7rem !important;
     }
 
-    .col-10 {
-        width: 83.33%;
+    .county-data p {
+        text-align: center !important;
     }
 
-    .col-11 {
-        width: 91.67%;
+    .common-btns {
+        margin-left: 10rem;
     }
 
-    .col-12 {
-        width: 100.00%;
+    #the-county {
+        background-size: 100% 100%;
+        height: auto !important;
     }
 
-    .heder-container {
-        max-width: 60%;
+    /* .red-circle {
+        right: 17rem !important;
+    } */
+
+    .p-data img {
+        height: 11rem !important;
     }
 
-}
+    .los {
+        padding-left: 0 !important;
+    }
 
-@media screen and (max-width: 991px) {
+    .p-data {
+        padding-top: 3rem;
+    }
+
+    .p-data p {
+        max-width: 90% !important;
+    }
+
+    .e-shop-data img {
+        display: none;
+    }
+
+    .e-shop h2 {
+        font-size: 3rem !important;
+    }
+
+    .e-shop h3 {
+        font-size: 4rem !important;
+    }
+
+    .detail-sliders {
+        text-align: center;
+    }
+
+    #save-up {
+        height: 36rem !important;
+    }
+
+    #map {
+        height: 40vh !important;
+    }
+
+    .last-footer {
+        column-gap: 10px;
+    }
+
+    .img img {
+        height: 30rem !important;
+        margin: 0 auto;
+    }
+
+    #about {
+        padding-bottom: 0;
+    }
+
+    .img-data h2 {
+        padding-left: 0rem !important;
+        font-size: 4.4rem !important;
+    }
+
+    .heder-container img {
+        height: 3rem;
+        max-width: 20%;
+    }
+
+    .heder-detail h2 {
+        font-size: 7rem !important;
+        padding-top: 5rem;
+
+    }
+
+    .heder-detail p {
+        color: white;
+        font-size: 1rem;
+    }
 }
 
 /* (576-767) sm */
+/* 1rem = 8px */
 @media screen and (min-width: 576px) {
+    html {
+        font-size: 50%;
+    }
+
+    #about {
+        padding-bottom: 60rem;
+    }
+
+    .img-data h2 {
+        padding-left: 3rem !important;
+        font-size: 5.4rem !important;
+    }
+
+    .box-burger img {
+        height: 10rem;
+    }
+
+    .red-circle {
+        top: 5rem;
+    }
+
+    .img {
+        display: flex;
+        height: 60rem;
+        padding-left: 1.5rem;
+        margin: 0 auto;
+    }
+
+    .img-data h2 {
+        font-size: 5.4rem;
+        padding-left: 3rem;
+
+    }
+
+    .last-footer {
+        column-gap: 0px;
+    }
+
+    .menu-star a i {
+        padding-left: 50rem;
+    }
+
+    .img {
+        height: 60rem;
+    }
+
+    .burger123 {
+        width: 100% !important;
+    }
+
+    .county-data h3 {
+        text-align: center;
+    }
+
+    .county-data h2 {
+        text-align: center;
+    }
+
+    .county-data p {
+        text-align: center !important;
+    }
+
+    .common-btns {
+        margin-left: 17rem;
+    }
+
+    #the-county {
+        background-size: 100% 100%;
+        height: auto !important;
+    }
+
+    /* .red-circle {
+        right: 14rem !important;
+    } */
+    .p-data img {
+        height: 7rem !important;
+    }
+
+    .los {
+        padding-left: 0 !important;
+    }
+
+    .event-data {
+        justify-content: center !important;
+    }
+
+    .p-data {
+        padding-top: 4rem;
+    }
+
+    .datas li a img {
+        height: 8rem;
+        width: 8rem;
+    }
+
+    .p-data p {
+        max-width: 90% !important;
+    }
+
+    .e-shop-data img {
+        display: none;
+    }
+
+    .e-shop h2 {
+        font-size: 4rem;
+    }
+
+    .e-shop h3 {
+        font-size: 6rem;
+    }
+
+    #save-up {
+        height: 42rem;
+    }
+
+    #map {
+        height: 60vh;
+    }
+
+    #map {
+        height: 40vh !important;
+    }
+
+    .heder-container img {
+        height: 4rem;
+        max-width: 24%;
+    }
+
+    .heder-detail h2 {
+        font-size: 3rem;
+    }
 }
 
 /* (768-991) md */
+/* 1rem = 9px */
 @media screen and (min-width: 768px) {
-    .heder-container {
-        max-width: 100%;
+
+    html {
+        font-size: 56.25%;
+    }
+
+    #about {
+        padding-bottom: 10rem;
+    }
+
+    .img-data h2 {
+        padding-left: 0rem;
+
+    }
+
+    .img {
+        margin: 0;
+    }
+
+    .burger123 {
+        width: 100% !important;
+    }
+
+    .menu-star a i {
+        padding-left: 65rem;
+    }
+
+    .county-data h3 {
+        text-align: center;
+    }
+
+    .county-data h2 {
+        text-align: center;
+    }
+
+    .county-data p {
+        text-align: center !important;
+    }
+
+    .common-btns {
+        margin-left: 25rem;
+    }
+
+    #the-county {
+        background-size: 100% 100%;
+        height: auto !important;
+    }
+
+
+    .p-data img {
+        height: 8rem !important;
+    }
+
+
+    /* .datas {
+        margin: 0 auto !important;
+    } */
+
+    .los {
+        padding-left: 7rem;
+    }
+
+    .datas {
+        max-width: 80%;
+    }
+
+    .tuna-datas {
+        justify-content: center !important;
+    }
+
+    .event-data {
+        justify-content: center !important;
+    }
+
+    /* .p-data {
+        padding-top: 13rem;
+    } */
+    .p-data p {
+        max-width: 55%;
+    }
+
+    .e-shop-data img {
+        display: none;
+    }
+
+    .e-shop-data img {
+        display: none;
+    }
+
+    #map {
+        height: 50vh !important;
+    }
+
+    .heder-container img {
+        height: 7rem;
+        max-width: 24%;
+    }
+
+    .heder-detail h2 {
+        font-size: 9rem;
     }
 }
 
 /* (992-1199) lg */
+/* 1rem = 9px */
 @media screen and (min-width: 992px) {
+    .img {
+        display: flex;
+        height: 60rem;
+        padding-left: 1.5rem;
+    }
+
+    .img-data h2 {
+        padding-left: 0rem;
+
+    }
+
+    .datas li a img {
+        padding-left: 0px;
+    }
+
+
+    .menu-star a i {
+        padding-left: 38rem;
+    }
+
+    .burger123 {
+        width: 58% !important;
+    }
+
+    .county-data h3 {
+        text-align: center;
+    }
+
+    .county-data h2 {
+        text-align: center;
+    }
+
+    .county-data p {
+        text-align: center !important;
+    }
+
+    .common-btns {
+        margin-left: 30rem;
+    }
+
+    #the-county {
+        background-size: 100% 100%;
+        height: auto !important;
+    }
+
+    /* .red-circle {
+        right: 54rem !important;
+    } */
+    .box-burger h2 {
+        text-align: center !important;
+    }
+
+    .p-data img {
+        height: 11rem !important;
+    }
+
+    .tuna-datas {
+        justify-content: space-between;
+    }
+
+    .event-data {
+        justify-content: space-between;
+    }
+
+    .e-shop-data img {
+        display: block;
+    }
+
+    #map {
+        height: 50vh !important;
+    }
 }
 
 /* (1200-1399) xl */
+/* 1rem = 10px */
 @media screen and (min-width: 1200px) {
+    html {
+
+        font-size: 62.5%;
+    }
+
+    .img {
+        display: flex;
+        height: 60rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .img-data h2 {
+        padding-left: 3rem;
+
+    }
+
+    .menu-star a i {
+        padding-left: 12rem;
+    }
+
+    .county-data {
+        padding: 5rem 0 5rem 0;
+        float: left;
+    }
+
+    .county-data h3 {
+        float: left;
+
+    }
+
+    .county-data h2 {
+        width: 40%;
+    }
+
+    .county-data p {
+        text-align: left !important;
+    }
+
+    .common-btns {
+        margin-left: 0;
+    }
+
+    #the-county {
+        background-size: 100% auto;
+        height: 100vh;
+    }
+
+    /* .red-circle {
+        right: 32rem;
+    } */
+
+    .box-burger h2 {
+        text-align: center !important;
+    }
+
+    .p-data img {
+        height: 11rem !important;
+    }
+
+    .p-data {
+        padding-top: 4rem;
+    }
+
+    .p-data p {
+        max-width: 55% !important;
+    }
+
+    #map {
+        height: 90vh !important;
+    }
+
+    .abc {
+        display: flex;
+        margin: 0 auto;
+    }
+
+
 }
 
 /* (1400-any) xxl  */
+/* 1rem = 10px */
 @media screen and (min-width: 1400px) {
-} 
+    .abc {
+        display: flex;
+        margin: 0 auto;
+    }
+
+}
