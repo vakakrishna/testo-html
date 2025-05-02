@@ -19,7 +19,7 @@ input .form-contro {
 .navbar-brand {
     font-size: 20px;
 }
-.heder-container {
+/* .heder-container {
     width: 100%;
     display: flex;
     margin: 0 auto;
@@ -77,11 +77,29 @@ header nav ul li a:hover {
 
 .container {
     width: 100%;
+} */
+button:not(:disabled) {
+    background-color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background: white;
+}    
+
+header nav ul li a {
+    color: black !important;
+    margin: 0 2rem;
+    font-size: 8rem;
 }
 
 /* ***********hero********* */
 #hero {
     position: relative;
+    height: 100vh;
 }
 
 .heroslider {
@@ -125,7 +143,7 @@ header nav ul li a:hover {
 }
 
 .heder-detail h2 {
-    font-size: 11.5rem;
+    font-size: 28rem;
     color: white;
     padding-top: 7rem;
     font-weight: bold;
