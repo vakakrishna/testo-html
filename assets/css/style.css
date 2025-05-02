@@ -99,7 +99,7 @@ header nav ul li a {
 /* ***********hero********* */
 #hero {
     position: relative;
- 
+ padding-top: 6.3rem;
 }
 
 .heroslider {
@@ -109,8 +109,8 @@ header nav ul li a {
 .heder-detail {
     position: absolute;
     z-index: 999;
-    top: 5rem;
-    left: 6rem;
+    top: 50%;
+    left: 50%;
     max-width: 80%;
 
 }
