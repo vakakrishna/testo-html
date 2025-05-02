@@ -126,7 +126,7 @@
 
     }  
     .heder-container img {
-        height: auto;
+        height: auto !important;
        
     }
     .heder-detail p {
@@ -262,7 +262,7 @@
     }
 
     .heder-container img {
-        height: auto;
+        height: auto !important;
        
     }
 
@@ -373,6 +373,11 @@
 
     .heder-detail h2 {
         font-size: 9rem;
+    }
+
+    .heder-container img {
+        height: auto;
+       
     }
 }
 
