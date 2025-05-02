@@ -138,11 +138,11 @@
         font-size: 2rem !important;
     }
     .heder-detail h2 {
-        padding-top: 1rem !important;
+        padding-top: 0rem !important;
     }
     .heroslider img {
         width: 100%;
-        height: 20vh !important;
+        height: 40vh !important;
     }
 }
 
